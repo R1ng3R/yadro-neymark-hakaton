@@ -32,7 +32,7 @@ git clone https://github.com/R1ng3R/yadro-neymark-hakaton.git
 
 2. Установить зависимости
 ```
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 ```
 uv pip install langflow
@@ -56,7 +56,7 @@ git clone https://github.com/R1ng3R/yadro-neymark-hakaton.git
 
 2. Установить зависимости
 ```
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 ```
 uv pip install langflow
