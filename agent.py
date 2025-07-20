@@ -1,11 +1,6 @@
 import requests
 import os
 
-from dotenv import load_dotenv
-
-# Загружает переменные из .env в окружение
-load_dotenv()
-
 # API Configuration
 try:
     api_key = os.environ["LANGFLOW_API_KEY"]
@@ -33,7 +28,8 @@ try:
     response.raise_for_status()  # Raise exception for bad status codes
 
     # Print response
-    print(response.text)
+    print(response) 
+
 
 except requests.exceptions.RequestException as e:
     print(f"Error making API request: {e}")
