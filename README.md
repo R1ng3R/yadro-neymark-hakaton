@@ -5,9 +5,13 @@
 ## Состав команды:
 
 Кирилл Балабанов – Teamlead, LLM
+
 Алексей Смирнов – Backend, datascience
+
 Тимофей Семенов – Backend, datascience
+
 Иван Михонин  – LLM
+
 Вячеслав Вялых – Frontend, datascience
 
 ---
