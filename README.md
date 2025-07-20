@@ -5,13 +5,9 @@
 ## Состав команды:
 
 Кирилл Балабанов – Teamlead, LLM
-
 Алексей Смирнов – Backend, datascience
-
 Тимофей Семенов – Backend, datascience
-
 Иван Михонин  – LLM
-
 Вячеслав Вялых – Frontend, datascience
 
 ---
@@ -30,7 +26,15 @@ https://github.com/R1ng3R/yadro-neymark-hakaton.git
 git clone https://github.com/R1ng3R/yadro-neymark-hakaton.git
 ```
 
-2. Установить зависимости
+2. Создать и активировать виртуальное окружение
+```
+python -m venv venv
+```
+```
+source venv/bin/activate
+```
+
+3. Установить зависимости
 ```
 pip install -r requirements.txt
 ```
@@ -54,15 +58,23 @@ https://github.com/R1ng3R/yadro-neymark-hakaton.git
 git clone https://github.com/R1ng3R/yadro-neymark-hakaton.git
 ```
 
-2. Установить зависимости
+2. Создать и активировать виртуальное окружение
+```
+python3 -m venv myenv
+```
+```
+source myenv/bin/activate
+```
+
+3. Установить зависимости
 ```
 pip install -r requirements.txt
 ```
 ```
-uv pip install langflow
+pip install langflow
 ```
 
-3. Открыть терминал в директории и выполнить
+4. Открыть терминал в директории и выполнить
 ```
 streamlit run main.py
 ```
